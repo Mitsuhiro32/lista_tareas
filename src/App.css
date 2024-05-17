@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.form-button{
+  display: flex;
+  justify-content: start;
+}
+
+.form-button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.lista-tareas {
+  color: #000;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: gray;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.tarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: darkgray;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.tarea-texto {
+  margin-right: 20px;
+}
+
+.tarea button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tarea button:hover {
+  background-color: #ff4500;
+}
